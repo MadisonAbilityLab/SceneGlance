@@ -22,7 +22,6 @@
   <h2 align="center">ASSETS 2026</h2>
   <h3 align="center"><a href="https://doi.org/10.1145/3797867.3828974">Paper (available after publish)</a> | <a href="./unity">Unity Frontend</a> | <a href="./python">Python Backend</a> | <a href="https://github.com/MadisonAbilityLab/SceneGlance/releases/tag/v1.0">Fine-Tuned Models</a> | <a href="#citation">Citation</a></h3>
   <div align="center"></div>
-<br>
 
 </p>
 
