@@ -1,4 +1,4 @@
-# SceneGlance — Unity Frontend (HoloLens 2)
+# SceneGlance: Unity Frontend (HoloLens 2)
 
 The augmented-reality frontend for SceneGlance, deployed on Microsoft HoloLens 2. It streams
 sensor video to the [Python backend](../python), receives recognition results, and renders the

@@ -1,4 +1,4 @@
-# SceneGlance — Python Backend
+# SceneGlance: Python Backend
 
 The ML inference server for SceneGlance. It receives sensor video streamed from the
 [HoloLens 2 Unity frontend](../unity), runs instance segmentation on each frame, and streams the
@@ -8,8 +8,8 @@ recognition results (masks, boxes, classes, geometry) back to the headset for AR
 
 - **Python 3.8+**
 - A **CUDA-capable GPU** (models run on `cuda:0`)
-- **PyTorch** — 2.1.2 recommended for mmdetection compatibility (install the build matching your CUDA)
-- **mmdetection** stack — `mmengine`, `mmcv`, `mmdet`. After installing PyTorch, run:
+- **PyTorch**, 2.1.2 recommended for mmdetection compatibility (install the build matching your CUDA)
+- **mmdetection** stack (`mmengine`, `mmcv`, `mmdet`). After installing PyTorch, run:
   ```bash
   pip install -U openmim
   mim install mmengine "mmcv>=2.0.0"
