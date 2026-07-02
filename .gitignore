@@ -1,0 +1,50 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# ===== Editors / OS =====
+.vscode/
+.idea/
+.DS_Store
+
+# ===== Media files =====
+*.mp4
+*.mov
+*.MOV
+
+# ===== Model checkpoints / weights =====
+*.pt
+*.pth
+
+# ===== Signing certificates =====
+*.pfx
+
+# ===== Backend data / runtime dirs (not published) =====
+/python/input
+/python/input-video
+/python/inputvideo
+/python/output
+/python/render
+/python/yolo
+/python/checkpoints
+
+# ===== Research data =====
+mental-map-analysis/
+
+# ===== AI / dev tooling =====
+.claude/
+.CLAUDE/
+
+# ===== Unity generated (unity/ also has its own .gitignore) =====
+/unity/[Ll]ibrary/
+/unity/[Tt]emp/
+/unity/[Oo]bj/
+/unity/[Bb]uild/
+/unity/[Bb]uild-*/
+/unity/[Bb]uilds/
+/unity/[Ll]ogs/
+/unity/[Uu]ser[Ss]ettings/
+/unity/[Mm]emoryCaptures/
+/unity/[Rr]ecordings/
