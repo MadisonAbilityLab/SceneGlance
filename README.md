@@ -20,7 +20,7 @@
     <br>
   </p>
   <h2 align="center">ASSETS 2026</h2>
-  <h3 align="center"><a href="https://doi.org/10.1145/3797867.3828974">Paper</a> | <a href="./unity">Unity Frontend</a> | <a href="./python">Python Backend</a> | <a href="https://github.com/MadisonAbilityLab/SceneGlance/releases/tag/v1.0">Fine-Tuned Model Weights</a> | <a href="#citation">Citation</a></h3>
+  <h3 align="center"><a href="https://doi.org/10.1145/3797867.3828974">Paper (available after publish)</a> | <a href="./unity">Unity Frontend</a> | <a href="./python">Python Backend</a> | <a href="https://github.com/MadisonAbilityLab/SceneGlance/releases/tag/v1.0">Fine-Tuned Models</a> | <a href="#citation">Citation</a></h3>
   <div align="center"></div>
 <br>
 
@@ -30,11 +30,7 @@
   <img src="assets/teaser.jpg" alt="SceneGlance teaser: instance-segmentation augmentations on a cluttered kitchen scene (A) and an outdoor street scene (B)" width="100%">
 </p>
 
-<br>
-
-**SceneGlance** is a wearable augmented reality (AR) system that helps people with low vision perceive complex, cluttered scenes such as a busy kitchen or a crowded street. Instead of enhancing the entire scene equally, which can add visual clutter and distraction, SceneGlance detects the objects that are important to perceive for people with low vision and augments them directly in 3D space. Its core idea is **AR distinction**: instead of augmenting every important object with the same augmentation, SceneGlance visually distinguishes them by their importance so the most critical ones stand out while reducing overall visual load. It offers three base augmentations (Static Outline, Solid Overlay, and Icon Labels) and three distinction methods (By Form, By Color, and By Additional Visual Information) that users can customize and combine to fit their preferences and visual needs. It runs on Microsoft HoloLens 2 as frontend and a fine-tuned RTMDet segmentation backend that locates objects with the headset's depth mesh and renders the augmentations.
-
-*The Paper link (DOI [10.1145/3797867.3828974](https://doi.org/10.1145/3797867.3828974)) will resolve once the ASSETS 2026 proceedings are published.*
+**SceneGlance** is a wearable augmented reality (AR) system that helps [people with low vision](https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/low-vision) perceive complex, cluttered scenes such as a busy kitchen or a crowded street. Instead of enhancing the entire scene equally, which can add visual clutter and distraction, SceneGlance detects the objects that are important to perceive for people with low vision and augments them in 3D space. Its core idea is **AR distinction**: instead of augmenting every important object with the same augmentation, SceneGlance visually distinguishes them by their importance so the most critical ones stand out while reducing overall visual load. It offers three base augmentations (Static Outline, Solid Overlay, and Icon Labels) and three distinction methods (By Form, By Color, and By Additional Visual Information) that users can customize and combine to fit their preferences and visual needs. It contains a frontend on Microsoft HoloLens 2 to capture the scene, locate objects in 3D using its depth mesh, and render the augmentations; and a backend server to recognize the important objects with a fine-tuned RTMDet model.
 
 ## Citation
 
