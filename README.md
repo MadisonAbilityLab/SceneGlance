@@ -35,17 +35,23 @@ In this repo, we present our [study scripts](./Study%20Materials) for the format
 
 ## Citation
 
-> ⚠️ **Placeholder.** The official ASSETS 2026 citation (proceedings title, pages, DOI) will be
-> added once the paper is published. Do not use the BibTeX below for formal citation yet.
+> ⚠️ **Note.** The page numbers / article number will be added once the paper is published.
 
 If you use SceneGlance in your research, please cite our work:
 
 ```bibtex
 @inproceedings{wu2026distinguish,
-  title={What to Distinguish and How? Opportunities and Challenges of Augmenting Multiple, Cluttered Objects in Complex Scenes for People with Low Vision},
   author={Wu, Yuheng and Chen, Ruijia and Lee, Jaewook and Li, Jia and Zhang, Kexin and Lio, Meng Fong and Wang, Weibing and Mondal, Sanbrita and Froehlich, Jon E. and Tian, Yapeng and Zhao, Yuhang},
-  booktitle={Proceedings of the ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '26)},
-  year={2026}
+  title={What to Distinguish and How? Opportunities and Challenges of Augmenting Multiple, Cluttered Objects in Complex Scenes for People with Low Vision},
+  year={2026},
+  isbn={979-8-4007-2521-0},
+  publisher={Association for Computing Machinery},
+  address={New York, NY, USA},
+  url={https://doi.org/10.1145/3797867.3828974},
+  doi={10.1145/3797867.3828974},
+  booktitle={Proceedings of the 28th International ACM SIGACCESS Conference on Computers and Accessibility},
+  location={Vila Nova de Gaia, Portugal},
+  series={ASSETS '26}
 }
 ```
 
