@@ -20,7 +20,7 @@
     <br>
   </p>
   <h2 align="center">ASSETS 2026</h2>
-  <h3 align="center"><a href="https://doi.org/10.1145/3797867.3828974">Paper (available after publish)</a> | <a href="./unity">Frontend</a> | <a href="./python">Backend</a> | <a href="https://github.com/MadisonAbilityLab/SceneGlance/releases/tag/v1.0">Fine-Tuned Models</a> | <a href="./Study%20Materials">Study Materials</a> | <a href="#citation">Citation</a></h3>
+  <h3 align="center"><a href="https://dl.acm.org/doi/10.1145/3797867.3828974">Paper</a> | <a href="./unity">Frontend</a> | <a href="./python">Backend</a> | <a href="https://github.com/MadisonAbilityLab/SceneGlance/releases/tag/v1.0">Fine-Tuned Models</a> | <a href="./Study%20Materials">Study Materials</a> | <a href="#citation">Citation</a></h3>
   <div align="center"></div>
 
 </p>
@@ -35,8 +35,6 @@ In this repo, we present our [study scripts](./Study%20Materials) for the format
 
 ## Citation
 
-> ⚠️ **Note.** The page numbers / article number will be added once the paper is published.
-
 If you use SceneGlance in your research, please cite our work:
 
 ```bibtex
@@ -44,13 +42,16 @@ If you use SceneGlance in your research, please cite our work:
   author={Wu, Yuheng and Chen, Ruijia and Lee, Jaewook and Li, Jia and Zhang, Kexin and Lio, Meng Fong and Wang, Weibing and Mondal, Sanbrita and Froehlich, Jon E. and Tian, Yapeng and Zhao, Yuhang},
   title={What to Distinguish and How? Opportunities and Challenges of Augmenting Multiple, Cluttered Objects in Complex Scenes for People with Low Vision},
   year={2026},
-  isbn={979-8-4007-2521-0},
+  isbn={9798400725210},
   publisher={Association for Computing Machinery},
   address={New York, NY, USA},
   url={https://doi.org/10.1145/3797867.3828974},
   doi={10.1145/3797867.3828974},
   booktitle={Proceedings of the 28th International ACM SIGACCESS Conference on Computers and Accessibility},
-  location={Vila Nova de Gaia, Portugal},
+  articleno={53},
+  numpages={25},
+  keywords={Accessibility, Augmented Reality, Low Vision, Vision Enhancement},
+  location={Porto, Portugal},
   series={ASSETS '26}
 }
 ```
